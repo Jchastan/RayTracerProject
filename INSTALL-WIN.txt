@@ -5,12 +5,12 @@ In order to compile you need the following.
    to the newest version. 
 
 1. CUDA Toolkit 5.0+ (https://developer.nvidia.com/cuda-downloads). Install the 
-   latest version if you don't have CUDA yet.
+   latest version if you don't have CUDA yet. (doesn't work with nvidia cards
 
 2. CMake 3.0 minimum (http://www.cmake.org/cmake/resources/software.html).
    I suggest the executable installer.
 
-3. Visual Studio. 2017 or 2019 should work.
+3. Visual Studio. 2017 or 2019 should work. 2022 does not
 
 4. OptiX 6.5.0 (https://developer.nvidia.com/designworks/optix/download).
 
@@ -34,7 +34,7 @@ Instructions for building:
 
 5. Press "Generate" to generate the Visual Studio solution. 
 
-6. Open the CSE-168.sln solution file in the build directory you created. You 
+6. Open the RaytracerProject.sln solution file in the build directory you created. You 
    can also click "Open Project" in CMake.
 
 7. You should be able to see a button called "Local Windows Debugger" on the 
